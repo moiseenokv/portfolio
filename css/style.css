@@ -205,3 +205,23 @@ section.education {
 .project__slider__item--show{
     display: block;
 }
+
+@media (max-width: 420px) {
+    header{
+        width: 100%;
+    }
+
+    .avatar{
+        width:40px;
+        border-radius: unset;
+    }
+
+    .personal__info{
+        width: 60%;
+    }
+
+    h1{
+        font-size: 21px;
+    }
+
+}
