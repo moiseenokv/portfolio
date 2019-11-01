@@ -21,12 +21,11 @@ body{
 
 header, footer,  main {
     max-width:800px;
-    border:1px solid red;
 }
 
 header{
     display: flex;
-    width: 59%;
+    width: 85%;
     justify-content: space-evenly;
 }
 
@@ -52,6 +51,7 @@ header a {
     align-items:center;
     border: 3px solid #000;
     border-radius: 50%;
+    min-width: 150px;
 }
 
 .avatar > img{
@@ -66,11 +66,11 @@ header a {
 }
 
 h1 {
-    font-size: 46px;
+    font-size: 36px;
     text-transform: uppercase;
 }
 
-main{
+main {
     width: 100%;
 }
 
